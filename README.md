@@ -1,6 +1,6 @@
 ### Hello There! 👋
 
-![Visitors](https://hit.yhype.me/github/profile?user_id=100200105) ![OsBadge](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![](https://hit.yhype.me/github/profile?user_id=100200105) ![Profile Views](https://komarev.com/ghpvc/?username=mahhheshh&style=plastic&label=PROFILE+VIEWS) ![OsBadge](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 ```py
 !#/user/bin/python3
@@ -16,20 +16,20 @@ class Social:
         self.username: str = username
 
     def __str__(self) -> str:
-        return '\n'.join([f"{platform}{self.username}" for platform in self.platforms])
+        return '-\n'.join([f"{platform}{self.username}" for platform in self.platforms])
 
 class Skills:
     def __init__(self):
         self.languages: list[str] = ["Python", "C++", "Java"]
         self.frameworks: list[str] = ["Django", "Flask", "Pandas"]
         self.databases: list[str] = ["MySQL", "MongoDB"]
-        self.misc: list[str] = ["Git", "GitHub", "Linux", "GCP"]
+        self.misc: list[str] = ["Git", "GitHub", "Ubuntu", "GCP"]
 
     def __str__(self) -> str:
-        return f"Languages: {', '.join(self.languages)}\
-            \nFrameworks: {', '.join(self.frameworks)}\
-            \nDatabases: {', '.join(self.databases)}\
-            \nMisc: {', '.join(self.misc)}"
+        return f"-Languages: {', '.join(self.languages)}    \
+            \n-Frameworks: {', '.join(self.frameworks)}    \
+            \n-Databases: {', '.join(self.databases)}    \
+            \n-Misc: {', '.join(self.misc)}"
 
 class Location:
     def __init__(self, city: str, state: str, country: str) -> None:
